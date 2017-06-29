@@ -4,6 +4,7 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
+    "setup": "npm i -g npm-run-all pug-cli && npm i",
     "test": "npm run test:server && npm run test:client",
     "test:server": "mocha test/server/**/*-test.js",
     "test:client": "mocha test/client/.setup.js test/client/**/*-test.jsx",
