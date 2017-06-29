@@ -10,7 +10,7 @@ This project contains all the necessary components to build a well structured, s
 2. Clone the repository
 3. Build and run your image:
 
-```
+```bash
 $ cd docker-node-boilerplate
 $ ./build
 $ docker run -i \
@@ -23,7 +23,7 @@ $ docker run -i \
 1. Clone the repository
 2. Build and run the app:
 
-```
+```bash
 $ cd docker-node-boilerplate/app
 $ npm run setup
 $ npm run dev
@@ -50,7 +50,7 @@ Starts up your app with `nodemon` and watch for either server or client changes,
 Starts up your app directly in production mode.
 This is the equivalent of running the following:
 
-```
+```bash
 $ NODE_ENV=production node --harmony app/server
 ```
 
